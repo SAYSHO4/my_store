@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر نورة الإلكتروني</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>متجر نورة الإلكتروني</h1>
+        <p>إعداد الطالبة: نورة</p>
+        <div class="cart">
+            🛒 سلة المشتريات: <span id="cart-count">0</span> منتجات
+        </div>
+    </header>
+
+    <main>
+        <div class="products">
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="منتج 1">
+                <h3>منتج 1</h3>
+                <p>السعر: 50 ريال</p>
+                <button onclick="addToCart('منتج 1',50)">أضف إلى السلة</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="منتج 2">
+                <h3>منتج 2</h3>
+                <p>السعر: 80 ريال</p>
+                <button onclick="addToCart('منتج 2',80)">أضف إلى السلة</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="منتج 3">
+                <h3>منتج 3</h3>
+                <p>السعر: 120 ريال</p>
+                <button onclick="addToCart('منتج 3',120)">أضف إلى السلة</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="منتج 4">
+                <h3>منتج 4</h3>
+                <p>السعر: 200 ريال</p>
+                <button onclick="addToCart('منتج 4',200)">أضف إلى السلة</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>تواصل معنا: info@store.com</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
